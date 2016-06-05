@@ -1,0 +1,4 @@
+:Init System at Mon Mar 14 21:17:25 2011
+-File Path: E:\packetlib\pure\http\tcp_asm\init\
+-File loaded size 7238, time cost: 0.159000 seconds.
+:Destroy System at Mon Mar 14 21:17:31 2011

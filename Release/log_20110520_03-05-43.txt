@@ -1,0 +1,4 @@
+:Init System at Fri May 20 03:05:43 2011
+-File Path: E:\packetlib\pure\duomi\udp_stand_10000\
+-File loaded size 10000, time cost: 0.111000 seconds.
+:Destroy System at Fri May 20 03:05:56 2011

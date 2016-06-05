@@ -1,0 +1,4 @@
+:Init System at Fri May 20 02:01:32 2011
+-File Path: E:\packetlib\pure\kuwo\udp_10000_standard\
+-File loaded size 10000, time cost: 2.141000 seconds.
+:Destroy System at Fri May 20 02:01:46 2011

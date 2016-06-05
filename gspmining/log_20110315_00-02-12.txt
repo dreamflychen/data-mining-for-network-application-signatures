@@ -1,0 +1,4 @@
+:Init System at Tue Mar 15 00:02:12 2011
+-File Path: E:\packetlib\pure\duomi\tcp_104_0301_1336∂‡√◊“Ù¿÷\all\
+-File loaded size 75, time cost: 0.004000 seconds.
+:Destroy System at Tue Mar 15 00:02:15 2011

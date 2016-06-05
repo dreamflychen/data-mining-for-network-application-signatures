@@ -1,0 +1,24 @@
+#Powered by Wynter Han
+#Date time: Mon Apr 04 01:04:05 2011
+Gsp Mining Initial parameters:
+	 Tag: http; Half Window Size: 100; Shingle Size: 3; Minimum Support Threshold: 0.100000
+	 Is self-adaption mode? Yes.
+	 Cosine: 0.300000; Scale: 0.500000; Offset: 5
+######Matlab position offset evalue:offset; total count; average length
+0 5 10 15 20 25 30 35 40 45 50 
+11 18 26 37 41 48 55 63 70 73 71 
+2.272727 1.944444 1.730769 1.567568 1.780488 1.833333 1.818182 2.079365 2.128571 2.150685 2.281690 
+######~Matlab position offset evalue End
+######Matlab position scale support evalue:scale; total count; average length
+0.100000 0.200000 0.300000 0.400000 0.500000 0.600000 0.700000 0.800000 0.900000 1.000000 
+7 3 0 0 0 0 0 0 0 0 
+1.142857 1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
+######~Matlab position scale support evalue End
+######Matlab cosine evalue:cosine; total count; average length
+0.000000 0.100000 0.200000 0.300000 0.400000 0.500000 0.600000 0.700000 0.800000 0.900000 1.000000 
+100 7 3 0 0 0 0 0 0 0 0 
+2.640000 1.142857 1.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
+######~Matlab cosine evalue End
+#Mining stopped at Mon Apr 04 01:05:54 2011
+
+#Total time costs 109.360000 seconds.

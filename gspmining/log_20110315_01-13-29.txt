@@ -1,0 +1,4 @@
+:Init System at Tue Mar 15 01:13:29 2011
+-File Path: E:\packetlib\pure\uusee\uusee_udp_pure\
+-File loaded size 68061, time cost: 8.965000 seconds.
+:Destroy System at Tue Mar 15 01:19:37 2011

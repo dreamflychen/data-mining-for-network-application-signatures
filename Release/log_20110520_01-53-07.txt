@@ -1,0 +1,4 @@
+:Init System at Fri May 20 01:53:07 2011
+-File Path: E:\packetlib\pure\pplive\udp\udp_standard5000\
+-File loaded size 5000, time cost: 0.066000 seconds.
+:Destroy System at Fri May 20 01:53:13 2011

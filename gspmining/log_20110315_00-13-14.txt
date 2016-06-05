@@ -1,0 +1,4 @@
+:Init System at Tue Mar 15 00:13:14 2011
+-File Path: E:\packetlib\pure\kuwo\udp_srchost_merge\
+-File loaded size 86901, time cost: 32.509000 seconds.
+:Destroy System at Tue Mar 15 00:14:20 2011

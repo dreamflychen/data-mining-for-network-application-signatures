@@ -1,0 +1,9 @@
+#Powered by Wynter Han
+#Date time: Tue Mar 15 01:02:41 2011
+Gsp Mining Initial parameters:
+	 Tag: qq_udp; Half Window Size: 100; Shingle Size: 3; Minimum Support Threshold: 0.100000
+	 Is self-adaption mode? Yes.
+	 Cosine: 0.300000; Scale: 0.500000; Offset: 5
+#Mining stopped at Tue Mar 15 01:02:41 2011
+
+#Total time costs 0.001000 seconds.

@@ -1,0 +1,4 @@
+:Init System at Mon Apr 04 00:25:01 2011
+-File Path: E:\temp\packet\
+-File loaded size 10, time cost: 0.001000 seconds.
+:Destroy System at Mon Apr 04 00:25:02 2011

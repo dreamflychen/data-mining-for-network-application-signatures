@@ -1,0 +1,4 @@
+:Init System at Fri May 20 02:29:18 2011
+-File Path: E:\packetlib\pure\iku\udp_iku5000_standard\
+-File loaded size 5000, time cost: 0.048000 seconds.
+:Destroy System at Fri May 20 02:29:21 2011

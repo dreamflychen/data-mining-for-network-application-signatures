@@ -1,0 +1,90 @@
+#Powered by Wynter Han
+#Date time: Tue Mar 15 00:02:12 2011
+Gsp Mining Initial parameters:
+	 Tag: duomi_tcp; Half Window Size: 100; Shingle Size: 3; Minimum Support Threshold: 0.100000
+	 Is self-adaption mode? Yes.
+	 Cosine: 0.300000; Scale: 0.500000; Offset: 5
+Audit Info:
+	 Half Window Size: 100, Line Support: 0.809, Min Threshold: 0.100, Window Size: 10
+	 Support Vector(2):1.000, *0.809*
+#Matlab matrix(Index, StartPos, FlowSize, KindSize, MaxFreq, MinFreq, lineSupport, Support Array)
+0 1 2 3 4 5 6 7 8 9 
+0 100 200 300 400 500 600 700 800 900 
+75 59 51 49 44 44 42 41 40 38 
+2600 4458 6160 6785 6494 6394 6455 6555 6537 3285 
+1.000000 0.617869 0.427989 0.328957 0.160737 0.197234 0.218378 0.140281 0.136463 0.080493 
+0.013333 0.016260 0.017120 0.016448 0.016074 0.015172 0.014559 0.014028 0.013646 0.013416 
+0.808935 0 0 0 0 0 0 0 0 0 
+1.000000 0 0 0 0 0 0 0 0 0 
+0.808935 0 0 0 0 0 0 0 0 0 
+#~End matrix
+#Lev Size:3; Logic Length:300; Min Count:75; Min Sup:1.000; Scale:0.500; Min Rel:37; cosine:0.300;Max offset:5
+Lev:1; Size:2
+0x00|[1:8-pos:(3:67) (8:41) (15:64) (16:40) (21:40) (22:40) (23:40) (24:40) ] [count:75 sup:1.000 (L:-1,R:-1)]
+0x01|[1:1-pos:(0:75) ] [count:75 sup:1.000 (L:-1,R:-1)]*
+Lev:2; Size:1
+0x00 0x00|[1:4-pos:(15:40) (21:40) (22:40) (23:40) ] [count:75 sup:1.000 (L:0,R:0)]
+Lev:3; Size:1
+0x00 0x00 0x00|[1:2-pos:(21:40) (22:40) ] [count:75 sup:1.000 (L:0,R:0)]*
+
+######RelatedRuleCollection
+Related Rule Size: 2; unknow flow size:0
+(0[0])0x01 -> (20[21])0x00 0x00 0x00 |count:40; sup:0.533; frag size:2
+	 Sample File: 0-tcp-89-20110301@13#33#24.145925-20110301@13#33#24.515662-0.369737-25-25-192.168.1.104@1765#i#115.51.145.209@28929.payload
+(0[0])0x01 |count:35; sup:0.467; frag size:1
+	 Sample File: 0-tcp-76-20110301@13#31#17.942399-20110301@13#31#18.301010-0.358611-8-8-192.168.1.104@1735#r#60.6.25.235@31879.payload
+
+######~End
+Signature size:1; Unknow sequence Size:0; Identify Rate:1.000000
+(0)0x01 | counts: 75, support:1.000000, earn:5.000000, frag size:1, merge count: 0
+	Regex: ^\u0001
+
+Signature size:1; Unknow sequence Size:0; Identify Rate:1.000000
+(0)0x01 | counts: 75, support:1.000000, earn:5.000000, frag size:1, merge count: 0
+	Regex: ^\u0001
+
+#Lev Size:5; Logic Length:300; Min Count:60; Min Sup:0.809; Scale:0.500; Min Rel:30; cosine:0.300;Max offset:5
+Lev:1; Size:2
+0x00|[1:25-pos:(3:67) (4:33) (5:35) (6:35) (7:35) (8:41) (10:33) (11:33) (15:64) (16:40) (21:40) (22:40) (23:40) (24:40) (28:34) (31:33) (32:33) (33:34) (34:33) (36:33) (40:33) (43:32) (44:32) (46:33) (48:33) ] [count:75 sup:1.000 (L:-1,R:-1)]
+0x01|[1:3-pos:(0:75) (25:34) (37:32) ] [count:75 sup:1.000 (L:-1,R:-1)]*
+Lev:2; Size:1
+0x00 0x00|[1:12-pos:(4:33) (5:35) (6:35) (10:33) (15:40) (21:40) (22:40) (23:40) (31:33) (32:33) (33:33) (43:32) ] [count:75 sup:1.000 (L:0,R:0)]
+Lev:3; Size:1
+0x00 0x00 0x00|[1:6-pos:(4:33) (5:35) (21:40) (22:40) (31:33) (32:33) ] [count:75 sup:1.000 (L:0,R:0)]
+Lev:4; Size:1
+0x00 0x00 0x00 0x00|[1:3-pos:(4:33) (21:40) (31:33) ] [count:73 sup:0.973 (L:0,R:0)]
+Lev:5; Size:1
+0x00 0x00 0x00 0x00 0x00|[2:3-pos:(9:40) (10:46) (29:36) ] [count:67 sup:0.893 (L:0,R:0)]*
+
+######RelatedRuleCollection
+Related Rule Size: 6; unknow flow size:0
+(0[0])0x01 -> (24[25])0x01 -> (3~4[29~30])0x00 0x00 0x00 0x00 0x00 -> (2~3[37])0x01 |count:28; sup:0.373; frag size:4
+	 Sample File: 0-tcp-59-20110301@13#30#54.170989-20110301@13#32#09.367235-75.196246-49-49-192.168.1.104@1710#i#119.54.110.145@10301.payload
+(0[0])0x01 -> (8~9[9~10])0x00 0x00 0x00 0x00 0x00 |count:23; sup:0.307; frag size:2
+	 Sample File: 0-tcp-110-20110301@13#35#09.483492-20110301@13#35#11.112217-1.628725-1751-1000-192.168.1.104@1782#r#118.76.96.123@20158.payload
+(0[0])0x01 |count:18; sup:0.240; frag size:1
+	 Sample File: 0-tcp-76-20110301@13#31#17.942399-20110301@13#31#18.301010-0.358611-8-8-192.168.1.104@1735#r#60.6.25.235@31879.payload
+(0[0])0x01 -> (24[25])0x01 -> (11[37])0x01 |count:4; sup:0.053; frag size:3
+	 Sample File: 0-tcp-17-20110301@13#25#21.79325-20110301@13#25#31.885549-10.806224-49-49-192.168.1.104@1538#i#118.76.96.123@20158.payload
+(0[0])0x01 -> (24[25])0x01 |count:1; sup:0.013; frag size:2
+	 Sample File: 0-tcp-45-20110301@13#30#28.764795-20110301@13#32#25.865632-117.100837-50-50-192.168.1.104@1677#i#123.84.205.203@16003.payload
+(0[0])0x01 -> (24[25])0x01 -> (4[30])0x00 0x00 0x00 0x00 0x00 |count:1; sup:0.013; frag size:3
+	 Sample File: 0-tcp-109-20110301@13#35#09.483492-20110301@13#35#11.112217-1.628725-37-37-192.168.1.104@1782#i#118.76.96.123@20158.payload
+
+######~End
+Signature size:1; Unknow sequence Size:0; Identify Rate:1.000000
+(0)0x01 | counts: 75, support:1.000000, earn:5.000000, frag size:1, merge count: 0
+	Regex: ^\u0001
+
+Signature size:1; Unknow sequence Size:0; Identify Rate:1.000000
+(0)0x01 | counts: 75, support:1.000000, earn:5.000000, frag size:1, merge count: 0
+	Regex: ^\u0001
+
+Signature size:1; Unknow sequence Size:0; Identify Rate:1.000000
+(0)0x01 | counts: 75, support:1.000000, earn:5.666667, frag size:1, merge count: 2
+	Regex: ^\u0001
+Regex String:
+duomi_tcp 5.666667 ^\u0001
+#Mining stopped at Tue Mar 15 00:02:15 2011
+
+#Total time costs 2.551000 seconds.

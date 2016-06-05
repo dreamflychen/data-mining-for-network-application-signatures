@@ -1,0 +1,22 @@
+#Powered by Wynter Han
+#Date time: Mon Mar 14 21:56:22 2011
+Gsp Mining Initial parameters:
+	 Tag: kugou_src; Half Window Size: 100; Shingle Size: 3; Minimum Support Threshold: 0.100000
+	 Is self-adaption mode? Yes.
+	 Cosine: 0.300000; Scale: 0.500000; Offset: 5
+Audit Info:
+	 Half Window Size: 100, Line Support: 0.023, Min Threshold: 0.100, Window Size: 10
+	 Support Vector(0):
+#Matlab matrix(Index, StartPos, FlowSize, KindSize, MaxFreq, MinFreq, lineSupport, Support Array)
+0 1 2 3 4 5 6 7 8 9 
+0 100 200 300 400 500 600 700 800 900 
+2703 35 35 35 33 33 33 32 32 32 
+143336 5197 5189 4994 4800 4748 4648 4596 4550 2254 
+0.039216 0.006635 0.003492 0.002408 0.001873 0.001562 0.001368 0.001659 0.001167 0.001124 
+0.000370 0.002212 0.001164 0.000803 0.000624 0.000521 0.000456 0.000415 0.000389 0.000375 
+0.022925 0 0 0 0 0 0 0 0 0 
+#~End matrix
+No signature. Cannot get support which greater than 0.100000.
+#Mining stopped at Mon Mar 14 21:56:23 2011
+
+#Total time costs 0.896000 seconds.

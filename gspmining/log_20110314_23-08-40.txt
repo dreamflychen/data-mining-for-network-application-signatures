@@ -1,0 +1,4 @@
+:Init System at Mon Mar 14 23:08:40 2011
+-File Path: E:\packetlib\pure\duomi\udp_104_0301_1336∂‡√◊“Ù¿÷\
+-File loaded size 77187, time cost: 1.336000 seconds.
+:Destroy System at Mon Mar 14 23:10:16 2011

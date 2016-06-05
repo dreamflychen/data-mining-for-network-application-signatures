@@ -1,0 +1,4 @@
+:Init System at Tue Mar 15 01:22:33 2011
+-File Path: E:\packetlib\pure\ppstream\ppstream_50000files\
+-File loaded size 50000, time cost: 0.678000 seconds.
+:Destroy System at Tue Mar 15 01:24:32 2011

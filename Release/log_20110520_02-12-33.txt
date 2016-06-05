@@ -1,0 +1,4 @@
+:Init System at Fri May 20 02:12:33 2011
+-File Path: E:\packetlib\pure\kugou\udp_5000_standard\
+-File loaded size 5000, time cost: 0.052000 seconds.
+:Destroy System at Fri May 20 02:12:41 2011

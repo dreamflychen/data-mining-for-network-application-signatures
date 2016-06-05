@@ -1,0 +1,24 @@
+#Powered by Wynter Han
+#Date time: Mon Apr 04 01:27:43 2011
+Gsp Mining Initial parameters:
+	 Tag: duomi; Half Window Size: 100; Shingle Size: 3; Minimum Support Threshold: 0.100000
+	 Is self-adaption mode? Yes.
+	 Cosine: 0.300000; Scale: 0.500000; Offset: 5
+######Matlab position offset evalue:offset; total count; average length
+0 5 10 15 20 25 30 35 40 45 50 
+3 3 3 3 4 5 7 10 12 13 17 
+4.333333 4.333333 4.333333 4.333333 3.500000 3.000000 2.428571 2.000000 1.833333 1.769231 1.588235 
+######~Matlab position offset evalue End
+######Matlab position scale support evalue:scale; total count; average length
+0.100000 0.200000 0.300000 0.400000 0.500000 0.600000 0.700000 0.800000 0.900000 1.000000 
+50 21 6 3 3 3 3 3 3 1 
+1.200000 1.476190 2.666667 4.333333 4.333333 4.333333 4.333333 4.333333 4.333333 8.000000 
+######~Matlab position scale support evalue End
+######Matlab cosine evalue:cosine; total count; average length
+0.000000 0.100000 0.200000 0.300000 0.400000 0.500000 0.600000 0.700000 0.800000 0.900000 1.000000 
+3 3 3 3 3 3 3 2 3 3 4 
+4.333333 4.333333 4.333333 4.333333 4.333333 4.333333 4.000000 4.500000 3.000000 3.000000 1.000000 
+######~Matlab cosine evalue End
+#Mining stopped at Mon Apr 04 01:33:39 2011
+
+#Total time costs 355.815000 seconds.

@@ -1,0 +1,4 @@
+:Init System at Mon Mar 14 20:53:04 2011
+-File Path: E:\packetlib\pure\emule\tcp_asm_all\tcp_all\
+-File loaded size 3364, time cost: 0.038000 seconds.
+:Destroy System at Mon Mar 14 20:53:06 2011

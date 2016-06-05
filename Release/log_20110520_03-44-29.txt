@@ -1,0 +1,208 @@
+:Init System at Fri May 20 03:44:29 2011
+Evaluate Result:
+qq TP:1.000000 FP:0.122807 PTP:0.990000 PFP:0.038835
+	Regex:^\u0002
+ bt 4;  duomi 78;  emule 17;  http 33;  iku 3;  kugou 126;  kuwo 95;  pplive 266;  ppstream 37;  uusee 41; 
+	Regex:^\u0002[\u0000-\uFFFF]{1}\u0007
+
+	Regex:^\u0002!\u0007\u0000[\u0000-\uFFFF]{3}\u0015O\u00ac\u00c3
+
+	Regex:^[\u0000-\uFFFF]{7}\u0015O\u00ac\u00c3
+
+	Regex:^[\u0000-\uFFFF]{11}\u0002\u0000\u0000\u0000\u0001\u0001\u0001\u0000\u0000d
+
+	Regex:^[\u0000-\uFFFF]{7}\u0015O\u00ac\u00c3[\u0000-\uFFFF]{10}\u003b
+
+kuwo TP:0.995000 FP:0.505418 PTP:0.589400 PFP:0.050580
+	Regex:^[\u0000-\uFFFF]{0,10}\u0080\u0000
+ bt 17;  duomi 4935;  emule 7;  http 36;  kugou 10;  pplive 32;  ppstream 43;  uusee 4; 
+	Regex:^[\u0000-\uFFFF]{0,10}\u0080\u0000[\u0000-\uFFFF]{4}\u0000\u0080\u000c\u0010
+
+	Regex:^\u0080\u0000[\u0000-\uFFFF]{8}\u0080\u0000
+
+	Regex:^[\u0000-\uFFFF]{0,10}\u0080\u0000[\u0000-\uFFFF]{2}\u0000\u0000\u0000\u0000\u000c\u0008
+
+bt TP:0.995200 FP:0.000803 PTP:0.995200 PFP:0.000803
+	Regex:^d1:ad2:id20:
+
+	Regex:^d1:ad2:id20:[\u0000-\uFFFF]{20}6:target20:
+
+	Regex:^d1:ad2:id20:[\u0000-\uFFFF]{20}6:target20:[\u0000-\uFFFF]{20}e1:q9:find_node1:t4:
+
+	Regex:^d1:rd2:id20:
+
+	Regex:^d1:rd2:id20:[\u0000-\uFFFF]{20}5:nodes208:
+
+	Regex:^d1:[\u0000-\uFFFF]{3}:i[\u0000-\uFFFF]{2}0
+
+	Regex:^A\u0002
+ kugou 3;  kuwo 1; 
+	Regex:^A\u0002[\u0000-\uFFFF]{11}8[\u0000-\uFFFF]{6}\u0000\u0008\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000[\u0000-\uFFFF]{13}8
+
+	Regex:^A\u0002[\u0000-\uFFFF]{11}8[\u0000-\uFFFF]{6}\u0000\u0008\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000
+
+	Regex:^[\u0000-\uFFFF]{1}\u0002[\u0000-\uFFFF]{18}\u0000\u0008\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000
+
+	Regex:^[\u0000-\uFFFF]{1}\u0002[\u0000-\uFFFF]{11}8[\u0000-\uFFFF]{6}\u0000\u0008\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000[\u0000-\uFFFF]{13}8
+
+	Regex:^\u0013BitTorrent\u0020protocol
+
+	Regex:^\u0013BitTorrent\u0020protocol\u0000\u0000\u0000\u0000\u0000\u0010\u0000
+
+	Regex:^\u0013BitTorrent\u0020protocol\u0000\u0000\u0000\u0000\u0000\u0010\u0000[\u0000-\uFFFF]{28}\u002d
+
+	Regex:^\u0013BitTorrent\u0020protocol\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0005
+
+	Regex:^\u0013BitTorrent\u0020protocol\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0005[\u0000-\uFFFF]{44}\u0014\u0000d1:ei0e4:ipv44:
+
+	Regex:^\u0013BitTorrent\u0020protocol\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0005[\u0000-\uFFFF]{65}12:complete_agoi
+
+	Regex:^\u0013BitTorrent\u0020protocol\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0005[\u0000-\uFFFF]{44}\u0014\u0000d1:ei0e4:ipv44:[\u0000-\uFFFF]{4}12:complete_agoi
+
+ppstream TP:1.000000 FP:0.000000 PTP:0.963200 PFP:0.000000
+	Regex:^[\u0000-\uFFFF]{2}C\u0000\u0000
+
+	Regex:^[\u0000-\uFFFF]{1}\u0000C\u0000\u0000
+
+http TP:1.000000 FP:0.000000 PTP:0.998000 PFP:0.000000
+	Regex:^GET\u0020\u002f
+
+	Regex:^POST\u0020\u002f
+
+	Regex:^HTTP\u002f1\.
+
+	Regex:^[\u0000-\uFFFF]{8}\u0020200\u0020OK\r\n
+
+	Regex:^HTTP\u002f1\.[\u0000-\uFFFF]{3}0
+
+emule TP:0.978400 FP:0.045650 PTP:0.978200 PFP:0.038907
+	Regex:^\u00e3
+ bt 2;  duomi 34;  http 9;  iku 2;  kugou 46;  kuwo 20;  pplive 55;  ppstream 22;  qq 9;  uusee 35; 
+	Regex:^[\u0000-\uFFFF]{2}\u0000\u0000\u0000\u0001\u0010
+
+	Regex:^\u00e3[\u0000-\uFFFF]{1}\u0000\u0000\u0000\u0001\u0010[\u0000-\uFFFF]{5}\u000e[\u0000-\uFFFF]{8}o[\u0000-\uFFFF]{8}\u0000\u0000\u0000\u0002\u0001\u0000\u0001
+
+	Regex:^[\u0000-\uFFFF]{2}\u0000\u0000\u0000\u0001\u0010[\u0000-\uFFFF]{5}\u000e[\u0000-\uFFFF]{8}o
+
+	Regex:^\u00e3[\u0000-\uFFFF]{1}\u0000\u0000\u0000\u0001\u0010[\u0000-\uFFFF]{5}\u000e[\u0000-\uFFFF]{8}o
+
+	Regex:^[\u0000-\uFFFF]{2}\u0000\u0000\u0000\u0001\u0010[\u0000-\uFFFF]{5}\u000e[\u0000-\uFFFF]{8}o[\u0000-\uFFFF]{8}\u0000\u0000\u0000\u0002\u0001\u0000\u0001
+
+	Regex:^\u00e3[\u0000-\uFFFF]{1}\u0000\u0000\u0000L[\u0000-\uFFFF]{5}\u000e[\u0000-\uFFFF]{8}o
+
+	Regex:^\u00e3[\u0000-\uFFFF]{1}\u0000\u0000\u0000L[\u0000-\uFFFF]{5}\u000e[\u0000-\uFFFF]{8}o[\u0000-\uFFFF]{8}\u0000\u0000\u0000\u0002\u0001\u0000\u0001
+
+	Regex:^\u00e3[\u0000-\uFFFF]{1}\u0000\u0000\u0000L[\u0000-\uFFFF]{5}\u000e[\u0000-\uFFFF]{8}o[\u0000-\uFFFF]{7}\u0007\u0000\u0000\u0000\u0002\u0001\u0000\u0001
+
+	Regex:^\u00e3[\u0000-\uFFFF]{1}\u0000\u0000\u0000L[\u0000-\uFFFF]{5}\u000e[\u0000-\uFFFF]{8}o[\u0000-\uFFFF]{7}\u0007\u0000\u0000\u0000\u0002\u0001\u0000\u0001[\u0000-\uFFFF]{187,213}\u0020
+
+duomi TP:0.981010 FP:0.290162 PTP:0.981010 PFP:0.290162
+	Regex:^[\u0000-\uFFFF]{4}\u0000\u0000\u0000\u0000\u0000\u0008\u0080\u0000
+
+	Regex:^[\u0000-\uFFFF]{6}\u0000\u0080
+ emule 2;  http 1;  kugou 2;  kuwo 1970;  pplive 1;  ppstream 8;  uusee 1; 
+	Regex:^[\u0000-\uFFFF]{6}\u0000\u0080\u0000\u0010
+
+iku TP:1.000000 FP:0.000000 PTP:0.999596 PFP:0.000000
+	Regex:^KU\u0000
+
+	Regex:^KU\u0000\u0001\u0004\u0000\u0000\u0008\u0000\u0000\u0000
+
+	Regex:^KU\u0000[\u0000-\uFFFF]{5,9}\u0000\u0000\u0000
+
+	Regex:^KU\u0000[\u0000-\uFFFF]{5,9}\u0000\u0000\u0000[\u0000-\uFFFF]{1}\u0000\u0000\u0000
+
+	Regex:^KU\u0000\u0003\u0000\u0000\u0000
+
+kugou TP:0.853200 FP:0.081988 PTP:0.843200 PFP:0.044857
+	Regex:^2
+ bt 7;  duomi 53;  emule 10;  http 113;  kuwo 37;  pplive 66;  ppstream 47;  qq 4;  uusee 44; 
+	Regex:^2[\u0000-\uFFFF]{27}\u0000\u0000\u0000\u0004
+
+	Regex:^2[\u0000-\uFFFF]{27}\u0000\u0000\u0000\u0004[\u0000-\uFFFF]{1,267}\u00ff
+
+pplive TP:0.835600 FP:0.161717 PTP:0.806400 PFP:0.066234
+	Regex:^[\u0000-\uFFFF]{4}V
+ bt 1;  duomi 49;  emule 11;  http 6;  iku 3;  kugou 98;  kuwo 52;  ppstream 22;  qq 20;  uusee 22; 
+	Regex:^[\u0000-\uFFFF]{9}\u0003\u0001\u0000\u0000
+
+	Regex:^[\u0000-\uFFFF]{10}\u0001\u0000\u0000
+ bt 1;  emule 12;  http 26;  iku 3;  kugou 1;  ppstream 24;  qq 11;  uusee 1; 
+	Regex:^[\u0000-\uFFFF]{7}\u0000\u0000\u0003\u0001\u0000\u0000
+
+	Regex:^[\u0000-\uFFFF]{4}V[\u0000-\uFFFF]{2}\u0000\u0000\u0003\u0001\u0000\u0000
+
+	Regex:^[\u0000-\uFFFF]{4}V[\u0000-\uFFFF]{44}\u0000\u0004
+
+	Regex:^[\u0000-\uFFFF]{4}V[\u0000-\uFFFF]{2}\u0000\u0000\u0003\u0001\u0000\u0000[\u0000-\uFFFF]{36}\u0000\u0004
+
+	Regex:^[\u0000-\uFFFF]{21,27}\u0007[\u0000-\uFFFF]{1,3}\u0001
+ bt 1;  duomi 4;  emule 1;  http 23;  kugou 7;  kuwo 3;  ppstream 2;  qq 1;  uusee 119; 
+	Regex:^[\u0000-\uFFFF]{21,27}\u0007[\u0000-\uFFFF]{1}\u0001[\u0000-\uFFFF]{4}\u0010\u0020\u0000\u0000\u0040\u0005
+
+	Regex:^[\u0000-\uFFFF]{9}\u0003\u0001\u0000\u0000
+
+	Regex:^[\u0000-\uFFFF]{4}\u005b
+ bt 7;  duomi 45;  emule 11;  http 21;  iku 5;  kugou 89;  kuwo 44;  ppstream 23;  qq 6;  uusee 31; 
+	Regex:^[\u0000-\uFFFF]{7}\u0000\u0000\u0003\u0001\u0000\u0000
+
+	Regex:^[\u0000-\uFFFF]{4}\u005b[\u0000-\uFFFF]{2}\u0000\u0000\u0003\u0001\u0000\u0000
+
+uusee TP:0.990400 FP:0.698086 PTP:0.932600 PFP:0.007027
+	Regex:^[\u0000-\uFFFF]{4}31
+ http 2;  ppstream 1; 
+	Regex:^\t\t\u0008
+ http 9; 
+	Regex:^\t\t\u0008\u0001
+
+	Regex:^[\u0000-\uFFFF]{4}11
+ emule 1;  kugou 1; 
+	Regex:^[\u0000-\uFFFF]{4}11\u00ff
+
+	Regex:^[\u0000-\uFFFF]{4}11\u00ff[\u0000-\uFFFF]{2}\u00ff\u0008\u0000\u0002
+
+	Regex:^\t\t\u0008[\u0000-\uFFFF]{4}\u0000
+
+	Regex:^\t\t\u0008\u0001[\u0000-\uFFFF]{3}\u0000
+
+	Regex:^[\u0000-\uFFFF]{4}11[\u0000-\uFFFF]{0,2}\u00ff
+
+	Regex:^[\u0000-\uFFFF]{4}11\u00ff[\u0000-\uFFFF]{9}\u0020
+
+	Regex:^[\u0000-\uFFFF]{4}11\u00ff[\u0000-\uFFFF]{2}\u00ff\u0008\u0000\u0002[\u0000-\uFFFF]{10}\u00dc\u0005\u0086\u001b[\u0000-\uFFFF]{1}\u0011FM
+
+	Regex:^[\u0000-\uFFFF]{9}\u00ff\u0008\u0000\u0002[\u0000-\uFFFF]{3}\u0020
+
+	Regex:^[\u0000-\uFFFF]{4}11\u00ff[\u0000-\uFFFF]{2}\u00ff\u0008\u0000\u0002[\u0000-\uFFFF]{3}\u0020
+
+	Regex:^[\u0000-\uFFFF]{4}11\u00ff[\u0000-\uFFFF]{10}\u009a\u0012[\u0000-\uFFFF]{4}\u00dc\u0005\u0086\u001b[\u0000-\uFFFF]{1}\u0011FM[\u0000-\uFFFF]{4}\u0004\u00cd\u0004
+
+	Regex:^[\u0000-\uFFFF]{4}11\u00ff[\u0000-\uFFFF]{2}\u00ff\u0008\u0000\u0002[\u0000-\uFFFF]{4}\u009a\u0012[\u0000-\uFFFF]{4}\u00dc\u0005\u0086\u001b[\u0000-\uFFFF]{1}\u0011FM[\u0000-\uFFFF]{4}\u0004\u00cd\u0004
+
+	Regex:^[\u0000-\uFFFF]{9}\u00ff\u0008\u0000\u0002[\u0000-\uFFFF]{4}\u009a\u0012[\u0000-\uFFFF]{4}\u00dc\u0005\u0086\u001b[\u0000-\uFFFF]{1}\u0011FM[\u0000-\uFFFF]{4}\u0004\u00cd\u0004
+
+	Regex:^[\u0000-\uFFFF]{4}11\u00ff\u00ff\u00ff\u00ff\u0008\u0000\u0002[\u0000-\uFFFF]{17}M[\u0000-\uFFFF]{4}\u0004
+
+	Regex:^[\u0000-\uFFFF]{4}11[\u0000-\uFFFF]{0,1}\u00ff[\u0000-\uFFFF]{0,1}\u00ff[\u0000-\uFFFF]{0,1}\u00ff[\u0000-\uFFFF]{0,1}\u0008\u0000\u0002[\u0000-\uFFFF]{17}M
+
+	Regex:^[\u0000-\uFFFF]{4}11[\u0000-\uFFFF]{1}\u00ff[\u0000-\uFFFF]{1}\u00ff\u0008\u0000\u0002[\u0000-\uFFFF]{17}M[\u0000-\uFFFF]{4}\u0004
+
+	Regex:^\u0013
+ bt 2019;  duomi 45;  emule 7;  http 48;  kugou 60;  kuwo 83;  pplive 57;  ppstream 32;  qq 18; 
+	Regex:^\t\t\u0008\u0000
+
+	Regex:^[\u0000-\uFFFF]{2}\u0007
+ bt 7;  duomi 50;  emule 15;  http 51;  iku 2;  kugou 88;  kuwo 57;  pplive 58;  ppstream 20;  qq 4946; 
+	Regex:^[\u0000-\uFFFF]{5}1[\u0000-\uFFFF]{6}\u0002
+ kugou 1; 
+	Regex:^[\u0000-\uFFFF]{9}\u0003
+ bt 3;  duomi 52;  emule 29;  http 618;  iku 1;  kugou 57;  kuwo 45;  pplive 2936;  ppstream 31; 
+	Regex:^[\u0000-\uFFFF]{5}1[\u0000-\uFFFF]{6}\u0002[\u0000-\uFFFF]{3}\u0020
+
+	Regex:^\t\t\u0008\u0000[\u0000-\uFFFF]{2,9}\u001f
+
+	Regex:^\u0013[\u0000-\uFFFF]{4}\u0000\u0000\u0000[\u0000-\uFFFF]{1}\u0003
+
+	Regex:^[\u0000-\uFFFF]{8}v\u00ffE\u007bfq\u00d6\u0024\u00c3\u00eb\)\u00b0p\u00ea\u0026g[\u0000-\uFFFF]{24}\u0000\u0000\u0000\u0000\u0000
+
+:Destroy System at Fri May 20 03:44:43 2011

@@ -1,0 +1,20 @@
+﻿Build started 2011/3/14 19:50:17.
+     1>Project "E:\win7_doc\documents\myfile\p2p特征提取\program\project\yaas\selectfile\selectfile.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\selectfile.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\selectfile.unsuccessfulbuild".
+         Touching "Debug\selectfile.lastbuildstate".
+     1>Done Building Project "E:\win7_doc\documents\myfile\p2p特征提取\program\project\yaas\selectfile\selectfile.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.25

@@ -1,0 +1,24 @@
+#Powered by Wynter Han
+#Date time: Mon Apr 04 11:06:42 2011
+Gsp Mining Initial parameters:
+	 Tag: kugou; Half Window Size: 100; Shingle Size: 3; Minimum Support Threshold: 0.100000
+	 Is self-adaption mode? Yes.
+	 Cosine: 0.300000; Scale: 0.500000; Offset: 5
+######Matlab position offset evalue:offset; total count; average length
+0 5 10 15 20 25 30 35 40 45 50 
+19 23 24 24 26 29 32 35 40 49 56 
+1.157895 1.130435 1.125000 1.125000 1.115385 1.103448 1.093750 1.085714 1.075000 1.061224 1.053571 
+######~Matlab position offset evalue End
+######Matlab position scale support evalue:scale; total count; average length
+0.100000 0.200000 0.300000 0.400000 0.500000 0.600000 0.700000 0.800000 0.900000 1.000000 
+86 63 37 24 23 22 18 3 3 2 
+1.034884 1.047619 1.081081 1.125000 1.130435 1.136364 1.166667 2.000000 2.000000 2.500000 
+######~Matlab position scale support evalue End
+######Matlab cosine evalue:cosine; total count; average length
+0.000000 0.100000 0.200000 0.300000 0.400000 0.500000 0.600000 0.700000 0.800000 0.900000 1.000000 
+23 23 23 23 23 23 23 23 23 23 24 
+1.130435 1.130435 1.130435 1.130435 1.130435 1.130435 1.130435 1.130435 1.130435 1.130435 1.000000 
+######~Matlab cosine evalue End
+#Mining stopped at Mon Apr 04 11:07:13 2011
+
+#Total time costs 31.127000 seconds.

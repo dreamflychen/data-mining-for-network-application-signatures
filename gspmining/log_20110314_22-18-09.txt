@@ -1,0 +1,4 @@
+:Init System at Mon Mar 14 22:18:09 2011
+-File Path: E:\packetlib\pure\kugou\udp_srchost\
+-File loaded size 2703, time cost: 0.039000 seconds.
+:Destroy System at Mon Mar 14 22:18:10 2011

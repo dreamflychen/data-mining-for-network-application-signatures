@@ -1,0 +1,4 @@
+:Init System at Mon Mar 14 20:28:29 2011
+-File Path: E:\packetlib\pure\bt\udp\filter\
+-File loaded size 8288, time cost: 0.092000 seconds.
+:Destroy System at Mon Mar 14 20:28:36 2011

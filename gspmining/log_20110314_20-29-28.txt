@@ -1,0 +1,4 @@
+:Init System at Mon Mar 14 20:29:28 2011
+-File Path: E:\packetlib\pure\bt\udp\udp_merge_all\
+-File loaded size 5416, time cost: 0.073000 seconds.
+:Destroy System at Mon Mar 14 20:29:33 2011

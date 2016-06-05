@@ -1,0 +1,164 @@
+#Powered by Wynter Han
+#Date time: Mon Mar 14 23:04:21 2011
+Gsp Mining Initial parameters:
+	 Tag: iku_udp; Half Window Size: 100; Shingle Size: 3; Minimum Support Threshold: 0.100000
+	 Is self-adaption mode? Yes.
+	 Cosine: 0.300000; Scale: 0.500000; Offset: 5
+Audit Info:
+	 Half Window Size: 100, Line Support: 0.682, Min Threshold: 0.100, Window Size: 10
+	 Support Vector(2):1.000, *0.682*
+#Matlab matrix(Index, StartPos, FlowSize, KindSize, MaxFreq, MinFreq, lineSupport, Support Array)
+0 1 2 3 4 5 6 7 8 9 
+0 100 200 300 400 500 600 700 800 900 
+97909 11895 8380 3892 3541 2490 2430 2376 2338 2295 
+319539 297453 260949 230434 210113 200385 193625 186276 178031 87178 
+1.000000 0.363955 0.149921 0.036129 0.024328 0.006234 0.004947 0.004436 0.003991 0.002088 
+0.000010 0.000039 0.000028 0.000021 0.000017 0.000014 0.000013 0.000011 0.000011 0.000010 
+0.681978 0 0 0 0 0 0 0 0 0 
+1.000000 0 0 0 0 0 0 0 0 0 
+0.681978 0 0 0 0 0 0 0 0 0 
+#~End matrix
+#Lev Size:3; Logic Length:300; Min Count:97909; Min Sup:1.000; Scale:0.500; Min Rel:48954; cosine:0.300;Max offset:5
+Lev:1; Size:4
+0x00|[1:9-pos:(2:97908) (5:86940) (6:96908) (8:95804) (9:97909) (10:95506) (12:95848) (13:97865) (14:94485) ] [count:97909 sup:1.000 (L:-1,R:-1)]
+0x01|[1:1-pos:(3:95804) ] [count:97909 sup:1.000 (L:-1,R:-1)]
+K|[1:1-pos:(0:97908) ] [count:97909 sup:1.000 (L:-1,R:-1)]
+U|[1:1-pos:(1:97908) ] [count:97909 sup:1.000 (L:-1,R:-1)]
+Lev:2; Size:4
+0x00 0x00|[1:5-pos:(5:85940) (8:95804) (9:95506) (12:95804) (13:94485) ] [count:97909 sup:1.000 (L:0,R:0)]
+U 0x00|[1:1-pos:(1:97908) ] [count:97909 sup:1.000 (L:3,R:0)]
+0x00 0x01|[1:1-pos:(2:95804) ] [count:97909 sup:1.000 (L:0,R:1)]*
+K U|[1:1-pos:(0:97908) ] [count:97909 sup:1.000 (L:2,R:3)]
+Lev:3; Size:2
+0x00 0x00 0x00|[1:2-pos:(8:95505) (12:94485) ] [count:97909 sup:1.000 (L:0,R:0)]*
+K U 0x00|[1:1-pos:(0:97908) ] [count:97909 sup:1.000 (L:3,R:1)]*
+
+######RelatedRuleCollection
+Related Rule Size: 3; unknow flow size:1
+(0[0])K U 0x00 -> (5[8])0x00 0x00 0x00 -> (1[12])0x00 0x00 0x00 |count:94186; sup:0.962; frag size:3
+	 Sample File: 1-udp-1-20110301@14#25#35.843830-20110301@14#25#35.843830-0.0-16-16-192.168.1.104@4466#u#123.115.223.120@4466.payload
+(0[0])K U 0x00 |count:2104; sup:0.021; frag size:1
+	 Sample File: 1-udp-27525-20110301@17#07#33.772074-20110301@17#07#33.772074-0.0-13-13-192.168.1.105@4466#u#221.218.119.114@20659.payload
+(0[0])K U 0x00 -> (5~9[8~12])0x00 0x00 0x00 |count:1618; sup:0.017; frag size:2
+	 Sample File: 1-udp-52135-20110301@17#19#26.370643-20110301@17#19#26.370643-0.0-16-16-192.168.1.105@4466#u#114.246.111.155@26692.payload
+
+######~End
+Signature size:3; Unknow sequence Size:1; Identify Rate:0.999990
+(0)K U 0x00 | counts: 97908, support:0.999990, earn:4.999980, frag size:1, merge count: 0
+	Regex: ^KU\u0000
+(0)K U 0x00->(5,9)0x00 0x00 0x00 | counts: 95804, support:0.978500, earn:4.457001, frag size:2, merge count: 0
+	Regex: ^KU\u0000(.|\r|\n){5,9}\u0000\u0000\u0000
+(0)K U 0x00->(5)0x00 0x00 0x00->(1)0x00 0x00 0x00 | counts: 94186, support:0.961975, earn:4.257283, frag size:3, merge count: 0
+	Regex: ^KU\u0000[\u0000-\uFFFF]{5}\u0000\u0000\u0000[\u0000-\uFFFF]{1}\u0000\u0000\u0000
+
+Signature size:3; Unknow sequence Size:1; Identify Rate:0.999990
+(0)K U 0x00 | counts: 97908, support:0.999990, earn:4.999980, frag size:1, merge count: 0
+	Regex: ^KU\u0000
+(0)K U 0x00->(5,9)0x00 0x00 0x00 | counts: 95804, support:0.978500, earn:4.457001, frag size:2, merge count: 0
+	Regex: ^KU\u0000(.|\r|\n){5,9}\u0000\u0000\u0000
+(0)K U 0x00->(5,9)0x00 0x00 0x00->(1)0x00 0x00 0x00 | counts: 94186, support:0.961975, earn:4.257283, frag size:3, merge count: 0
+	Regex: ^KU\u0000(.|\r|\n){5,9}\u0000\u0000\u0000[\u0000-\uFFFF]{1}\u0000\u0000\u0000
+
+#Lev Size:11; Logic Length:300; Min Count:66771; Min Sup:0.682; Scale:0.500; Min Rel:33385; cosine:0.300;Max offset:5
+Lev:1; Size:6
+0x00|[1:9-pos:(2:97908) (5:86940) (6:96908) (8:95804) (9:97909) (10:95506) (12:95848) (13:97865) (14:94485) ] [count:97909 sup:1.000 (L:-1,R:-1)]
+0x01|[1:1-pos:(3:95804) ] [count:97909 sup:1.000 (L:-1,R:-1)]
+0x04|[1:1-pos:(4:86141) ] [count:89467 sup:0.914 (L:-1,R:-1)]
+0x08|[1:1-pos:(7:87649) ] [count:89958 sup:0.919 (L:-1,R:-1)]
+K|[1:1-pos:(0:97908) ] [count:97909 sup:1.000 (L:-1,R:-1)]
+U|[1:1-pos:(1:97908) ] [count:97909 sup:1.000 (L:-1,R:-1)]
+Lev:2; Size:8
+0x00 0x00|[1:5-pos:(5:85940) (8:95804) (9:95506) (12:95804) (13:94485) ] [count:97909 sup:1.000 (L:0,R:0)]
+0x04 0x00|[1:1-pos:(4:76365) ] [count:80564 sup:0.823 (L:2,R:0)]
+0x08 0x00|[1:1-pos:(7:87649) ] [count:89807 sup:0.917 (L:3,R:0)]
+U 0x00|[1:1-pos:(1:97908) ] [count:97909 sup:1.000 (L:5,R:0)]
+0x00 0x01|[1:1-pos:(2:95804) ] [count:97909 sup:1.000 (L:0,R:1)]
+0x01 0x04|[1:1-pos:(3:86141) ] [count:88380 sup:0.903 (L:1,R:2)]
+0x00 0x08|[1:1-pos:(6:87649) ] [count:89850 sup:0.918 (L:0,R:3)]
+K U|[1:1-pos:(0:97908) ] [count:97909 sup:1.000 (L:4,R:5)]
+Lev:3; Size:9
+0x00 0x00 0x00|[1:2-pos:(8:95505) (12:94485) ] [count:97909 sup:1.000 (L:0,R:0)]
+0x00 0x08 0x00|[1:1-pos:(6:87649) ] [count:89739 sup:0.917 (L:6,R:2)]
+0x08 0x00 0x00|[1:1-pos:(7:87649) ] [count:87785 sup:0.897 (L:2,R:0)]
+0x04 0x00 0x00|[1:1-pos:(4:76365) ] [count:79123 sup:0.808 (L:1,R:0)]
+0x01 0x04 0x00|[1:1-pos:(3:76365) ] [count:76372 sup:0.780 (L:5,R:1)]
+K U 0x00|[1:1-pos:(0:97908) ] [count:97909 sup:1.000 (L:7,R:3)]
+U 0x00 0x01|[1:1-pos:(1:95804) ] [count:95804 sup:0.979 (L:3,R:4)]
+0x00 0x01 0x04|[1:1-pos:(2:86141) ] [count:88371 sup:0.903 (L:4,R:5)]
+0x00 0x00 0x08|[1:1-pos:(5:76681) ] [count:77741 sup:0.794 (L:0,R:6)]
+Lev:4; Size:8
+0x00 0x08 0x00 0x00|[1:1-pos:(6:87649) ] [count:87785 sup:0.897 (L:1,R:2)]
+0x00 0x00 0x08 0x00|[1:1-pos:(5:76681) ] [count:77379 sup:0.790 (L:8,R:1)]
+0x08 0x00 0x00 0x00|[1:1-pos:(7:87350) ] [count:87488 sup:0.894 (L:2,R:0)]
+0x04 0x00 0x00 0x08|[1:1-pos:(4:73000) ] [count:73000 sup:0.746 (L:3,R:8)]
+0x00 0x01 0x04 0x00|[1:1-pos:(2:76365) ] [count:76366 sup:0.780 (L:7,R:4)]
+0x01 0x04 0x00 0x00|[1:1-pos:(3:76365) ] [count:76366 sup:0.780 (L:4,R:3)]
+K U 0x00 0x01|[1:1-pos:(0:95804) ] [count:95804 sup:0.979 (L:5,R:6)]
+U 0x00 0x01 0x04|[1:1-pos:(1:86141) ] [count:86141 sup:0.880 (L:6,R:7)]
+Lev:5; Size:7
+0x00 0x08 0x00 0x00 0x00|[1:1-pos:(6:87350) ] [count:87486 sup:0.894 (L:0,R:2)]
+0x00 0x00 0x08 0x00 0x00|[1:1-pos:(5:76681) ] [count:77075 sup:0.787 (L:1,R:0)]
+0x00 0x01 0x04 0x00 0x00|[1:1-pos:(2:76365) ] [count:76366 sup:0.780 (L:4,R:5)]
+0x04 0x00 0x00 0x08 0x00|[1:1-pos:(4:73000) ] [count:73000 sup:0.746 (L:3,R:1)]
+0x01 0x04 0x00 0x00 0x08|[1:1-pos:(3:73000) ] [count:73000 sup:0.746 (L:5,R:3)]
+U 0x00 0x01 0x04 0x00|[1:1-pos:(1:76365) ] [count:76365 sup:0.780 (L:7,R:4)]
+K U 0x00 0x01 0x04|[1:1-pos:(0:86141) ] [count:86141 sup:0.880 (L:6,R:7)]
+Lev:6; Size:6
+0x00 0x00 0x08 0x00 0x00 0x00|[1:1-pos:(5:76460) ] [count:76854 sup:0.785 (L:1,R:0)]
+0x00 0x01 0x04 0x00 0x00 0x08|[1:1-pos:(2:73000) ] [count:73000 sup:0.746 (L:2,R:4)]
+0x04 0x00 0x00 0x08 0x00 0x00|[1:1-pos:(4:73000) ] [count:73000 sup:0.746 (L:3,R:1)]
+U 0x00 0x01 0x04 0x00 0x00|[1:1-pos:(1:76365) ] [count:76365 sup:0.780 (L:5,R:2)]
+0x01 0x04 0x00 0x00 0x08 0x00|[1:1-pos:(3:73000) ] [count:73000 sup:0.746 (L:4,R:3)]
+K U 0x00 0x01 0x04 0x00|[1:1-pos:(0:76365) ] [count:76365 sup:0.780 (L:6,R:5)]
+Lev:7; Size:5
+0x00 0x01 0x04 0x00 0x00 0x08 0x00|[1:1-pos:(2:73000) ] [count:73000 sup:0.746 (L:1,R:4)]
+0x04 0x00 0x00 0x08 0x00 0x00 0x00|[1:1-pos:(4:72779) ] [count:72779 sup:0.743 (L:2,R:0)]
+U 0x00 0x01 0x04 0x00 0x00 0x08|[1:1-pos:(1:73000) ] [count:73000 sup:0.746 (L:3,R:1)]
+0x01 0x04 0x00 0x00 0x08 0x00 0x00|[1:1-pos:(3:73000) ] [count:73000 sup:0.746 (L:4,R:2)]
+K U 0x00 0x01 0x04 0x00 0x00|[1:1-pos:(0:76365) ] [count:76365 sup:0.780 (L:5,R:3)]
+Lev:8; Size:4
+U 0x00 0x01 0x04 0x00 0x00 0x08 0x00|[1:1-pos:(1:73000) ] [count:73000 sup:0.746 (L:2,R:0)]
+0x01 0x04 0x00 0x00 0x08 0x00 0x00 0x00|[1:1-pos:(3:72779) ] [count:72779 sup:0.743 (L:3,R:1)]
+K U 0x00 0x01 0x04 0x00 0x00 0x08|[1:1-pos:(0:73000) ] [count:73000 sup:0.746 (L:4,R:2)]
+0x00 0x01 0x04 0x00 0x00 0x08 0x00 0x00|[1:1-pos:(2:73000) ] [count:73000 sup:0.746 (L:0,R:3)]
+Lev:9; Size:3
+K U 0x00 0x01 0x04 0x00 0x00 0x08 0x00|[1:1-pos:(0:73000) ] [count:73000 sup:0.746 (L:2,R:0)]
+0x00 0x01 0x04 0x00 0x00 0x08 0x00 0x00 0x00|[1:1-pos:(2:72779) ] [count:72779 sup:0.743 (L:3,R:1)]
+U 0x00 0x01 0x04 0x00 0x00 0x08 0x00 0x00|[1:1-pos:(1:73000) ] [count:73000 sup:0.746 (L:0,R:3)]
+Lev:10; Size:2
+U 0x00 0x01 0x04 0x00 0x00 0x08 0x00 0x00 0x00|[1:1-pos:(1:72779) ] [count:72779 sup:0.743 (L:2,R:1)]
+K U 0x00 0x01 0x04 0x00 0x00 0x08 0x00 0x00|[1:1-pos:(0:73000) ] [count:73000 sup:0.746 (L:0,R:2)]
+Lev:11; Size:1
+K U 0x00 0x01 0x04 0x00 0x00 0x08 0x00 0x00 0x00|[1:1-pos:(0:72779) ] [count:72779 sup:0.743 (L:1,R:0)]*
+
+######RelatedRuleCollection
+Related Rule Size: 1; unknow flow size:25130
+(0[0])K U 0x00 0x01 0x04 0x00 0x00 0x08 0x00 0x00 0x00 |count:72779; sup:0.743; frag size:1
+	 Sample File: 1-udp-10-20110301@14#25#36.57418-20110301@14#25#36.57418-0.0-16-16-192.168.1.104@4466#u#114.251.171.246@7263.payload
+
+######~End
+Signature size:1; Unknow sequence Size:25130; Identify Rate:0.743333
+(0)K U 0x00 0x01 0x04 0x00 0x00 0x08 0x00 0x00 0x00 | counts: 72779, support:0.743333, earn:4.486666, frag size:1, merge count: 0
+	Regex: ^KU\u0000\u0001\u0004\u0000\u0000\u0008\u0000\u0000\u0000
+
+Signature size:1; Unknow sequence Size:25130; Identify Rate:0.743333
+(0)K U 0x00 0x01 0x04 0x00 0x00 0x08 0x00 0x00 0x00 | counts: 72779, support:0.743333, earn:4.486666, frag size:1, merge count: 0
+	Regex: ^KU\u0000\u0001\u0004\u0000\u0000\u0008\u0000\u0000\u0000
+
+Signature size:4; Unknow sequence Size:1; Identify Rate:0.999990
+(0)K U 0x00 | counts: 97908, support:0.999990, earn:5.499980, frag size:1, merge count: 1
+	Regex: ^KU\u0000
+(0)K U 0x00 0x01 0x04 0x00 0x00 0x08 0x00 0x00 0x00 | counts: 72779, support:0.743333, earn:4.986666, frag size:1, merge count: 1
+	Regex: ^KU\u0000\u0001\u0004\u0000\u0000\u0008\u0000\u0000\u0000
+(0)K U 0x00->(5,9)0x00 0x00 0x00 | counts: 95804, support:0.978500, earn:4.957001, frag size:2, merge count: 1
+	Regex: ^KU\u0000(.|\r|\n){5,9}\u0000\u0000\u0000
+(0)K U 0x00->(5,9)0x00 0x00 0x00->(1)0x00 0x00 0x00 | counts: 94186, support:0.961975, earn:4.757283, frag size:3, merge count: 1
+	Regex: ^KU\u0000(.|\r|\n){5,9}\u0000\u0000\u0000[\u0000-\uFFFF]{1}\u0000\u0000\u0000
+Regex String:
+iku_udp 5.499980 ^KU\u0000
+iku_udp 4.986666 ^KU\u0000\u0001\u0004\u0000\u0000\u0008\u0000\u0000\u0000
+iku_udp 4.957001 ^KU\u0000(.|\r|\n){5,9}\u0000\u0000\u0000
+iku_udp 4.757283 ^KU\u0000(.|\r|\n){5,9}\u0000\u0000\u0000[\u0000-\uFFFF]{1}\u0000\u0000\u0000
+#Mining stopped at Mon Mar 14 23:05:00 2011
+
+#Total time costs 39.123000 seconds.

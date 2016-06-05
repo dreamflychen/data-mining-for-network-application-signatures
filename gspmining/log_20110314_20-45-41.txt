@@ -1,0 +1,4 @@
+:Init System at Mon Mar 14 20:45:41 2011
+-File Path: E:\packetlib\pure\emule\tcp_asm_all\filter\resp\
+-File loaded size 5224, time cost: 0.087000 seconds.
+:Destroy System at Mon Mar 14 20:46:03 2011

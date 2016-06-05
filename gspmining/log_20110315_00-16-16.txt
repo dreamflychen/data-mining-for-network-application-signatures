@@ -1,0 +1,4 @@
+:Init System at Tue Mar 15 00:16:16 2011
+-File Path: E:\packetlib\pure\kuwo\tcp_merge\
+-File loaded size 624, time cost: 0.008000 seconds.
+:Destroy System at Tue Mar 15 00:16:19 2011

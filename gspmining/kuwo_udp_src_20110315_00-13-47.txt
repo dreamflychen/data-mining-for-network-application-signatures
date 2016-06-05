@@ -1,0 +1,110 @@
+#Powered by Wynter Han
+#Date time: Tue Mar 15 00:13:47 2011
+Gsp Mining Initial parameters:
+	 Tag: kuwo_udp_src; Half Window Size: 100; Shingle Size: 3; Minimum Support Threshold: 0.100000
+	 Is self-adaption mode? Yes.
+	 Cosine: 0.300000; Scale: 0.500000; Offset: 5
+Audit Info:
+	 Half Window Size: 100, Line Support: 0.450, Min Threshold: 0.100, Window Size: 10
+	 Support Vector(2):0.861, *0.450*
+#Matlab matrix(Index, StartPos, FlowSize, KindSize, MaxFreq, MinFreq, lineSupport, Support Array)
+0 1 2 3 4 5 6 7 8 9 
+0 100 200 300 400 500 600 700 800 900 
+86901 1090 547 547 547 547 547 547 546 546 
+260216 33662 33470 33453 33466 33453 33433 33324 32931 16333 
+0.861267 0.038947 0.000772 0.000554 0.000429 0.000568 0.000497 0.000413 0.000399 0.000245 
+0.000012 0.000069 0.000037 0.000025 0.000019 0.000016 0.000014 0.000013 0.000012 0.000012 
+0.450107 0 0 0 0 0 0 0 0 0 
+0.861267 0 0 0 0 0 0 0 0 0 
+0.450107 0 0 0 0 0 0 0 0 0 
+#~End matrix
+#Lev Size:3; Logic Length:300; Min Count:74845; Min Sup:0.861; Scale:0.500; Min Rel:37422; cosine:0.300;Max offset:5
+Lev:1; Size:4
+0x00|[1:3-pos:(1:86290) (6:86299) (11:86371) ] [count:86901 sup:1.000 (L:-1,R:-1)]
+0x0c|[1:1-pos:(8:86371) ] [count:86379 sup:0.994 (L:-1,R:-1)]
+0x10|[1:1-pos:(9:75290) ] [count:77311 sup:0.890 (L:-1,R:-1)]
+0x80|[1:2-pos:(0:86371) (7:74917) ] [count:86377 sup:0.994 (L:-1,R:-1)]
+Lev:2; Size:4
+0x80 0x00|[1:1-pos:(0:86290) ] [count:86339 sup:0.994 (L:3,R:0)]*
+0x80 0x0c|[1:1-pos:(7:74917) ] [count:74917 sup:0.862 (L:3,R:1)]
+0x0c 0x10|[1:1-pos:(8:75290) ] [count:75290 sup:0.866 (L:1,R:2)]*
+0x00 0x80|[1:1-pos:(6:74845) ] [count:75388 sup:0.868 (L:0,R:3)]
+Lev:3; Size:1
+0x00 0x80 0x0c|[1:1-pos:(6:74845) ] [count:74845 sup:0.861 (L:3,R:1)]*
+
+######RelatedRuleCollection
+Related Rule Size: 4; unknow flow size:543
+(0[0])0x80 0x00 -> (4[6])0x00 0x80 0x0c |count:74845; sup:0.861; frag size:2
+	 Sample File: 1-udp-20421-20110301@11#06#50.824080-20110301@11#06#50.824080-0.0-12-12-192.168.1.105@11792#u#119.54.222.33@14520.payload
+(0[0])0x80 0x00 |count:10682; sup:0.123; frag size:1
+	 Sample File: 1-udp-10010-20110301@11#02#38.383384-20110301@11#02#38.383384-0.0-12-12-192.168.1.105@11792#u#113.232.132.76@21044.payload
+(0[0])0x80 0x00 -> (6[8])0x0c 0x10 |count:763; sup:0.009; frag size:2
+	 Sample File: 1-udp-10007-20110301@11#02#38.372443-20110301@11#02#38.372443-0.0-12-12-192.168.1.105@11792#u#112.122.91.35@16705.payload
+(8[8])0x0c 0x10 |count:68; sup:0.001; frag size:1
+	 Sample File: 1-udp-8561-20110301@11#02#16.158894-20110301@11#02#16.158894-0.0-12-12-192.168.1.105@11792#u#221.212.146.37@15816.payload
+
+######~End
+Signature size:2; Unknow sequence Size:611; Identify Rate:0.992969
+(0)0x80 0x00 | counts: 86290, support:0.992969, earn:4.985938, frag size:1, merge count: 0
+	Regex: ^\u0080\u0000
+(0)0x80 0x00->(4)0x00 0x80 0x0c | counts: 74845, support:0.861267, earn:4.055868, frag size:2, merge count: 0
+	Regex: ^\u0080\u0000[\u0000-\uFFFF]{4}\u0000\u0080\u000c
+
+Signature size:2; Unknow sequence Size:611; Identify Rate:0.992969
+(0)0x80 0x00 | counts: 86290, support:0.992969, earn:4.985938, frag size:1, merge count: 0
+	Regex: ^\u0080\u0000
+(0)0x80 0x00->(4)0x00 0x80 0x0c | counts: 74845, support:0.861267, earn:4.055868, frag size:2, merge count: 0
+	Regex: ^\u0080\u0000[\u0000-\uFFFF]{4}\u0000\u0080\u000c
+
+#Lev Size:4; Logic Length:300; Min Count:39114; Min Sup:0.450; Scale:0.500; Min Rel:19557; cosine:0.300;Max offset:5
+Lev:1; Size:4
+0x00|[1:3-pos:(1:86290) (6:86299) (11:86371) ] [count:86901 sup:1.000 (L:-1,R:-1)]
+0x0c|[1:1-pos:(8:86371) ] [count:86379 sup:0.994 (L:-1,R:-1)]
+0x10|[1:1-pos:(9:75290) ] [count:77311 sup:0.890 (L:-1,R:-1)]
+0x80|[1:3-pos:(0:86371) (7:74917) (10:31228) ] [count:86377 sup:0.994 (L:-1,R:-1)]
+Lev:2; Size:4
+0x80 0x00|[1:2-pos:(0:86290) (10:31228) ] [count:86339 sup:0.994 (L:3,R:0)]*
+0x80 0x0c|[1:1-pos:(7:74917) ] [count:74917 sup:0.862 (L:3,R:1)]
+0x0c 0x10|[1:1-pos:(8:75290) ] [count:75290 sup:0.866 (L:1,R:2)]
+0x00 0x80|[1:1-pos:(6:74845) ] [count:75388 sup:0.868 (L:0,R:3)]
+Lev:3; Size:2
+0x80 0x0c 0x10|[1:1-pos:(7:74531) ] [count:74531 sup:0.858 (L:1,R:2)]
+0x00 0x80 0x0c|[1:1-pos:(6:74845) ] [count:74845 sup:0.861 (L:3,R:1)]
+Lev:4; Size:1
+0x00 0x80 0x0c 0x10|[1:1-pos:(6:74459) ] [count:74459 sup:0.857 (L:1,R:0)]*
+
+######RelatedRuleCollection
+Related Rule Size: 4; unknow flow size:562
+(0[0])0x80 0x00 -> (4[6])0x00 0x80 0x0c 0x10 |count:54459; sup:0.627; frag size:2
+	 Sample File: 1-udp-20421-20110301@11#06#50.824080-20110301@11#06#50.824080-0.0-12-12-192.168.1.105@11792#u#119.54.222.33@14520.payload
+(0[0])0x80 0x00 -> (4[6])0x00 0x80 0x0c 0x10 -> (0[10])0x80 0x00 |count:20000; sup:0.230; frag size:3
+	 Sample File: 1-udp-68254-20110301@10#52#05.111237-20110301@10#52#05.111237-0.0-12-12-192.168.1.102@12314#u#113.3.215.15@16314.payload
+(0[0])0x80 0x00 -> (8[10])0x80 0x00 |count:11179; sup:0.129; frag size:2
+	 Sample File: 1-udp-10007-20110301@11#02#38.372443-20110301@11#02#38.372443-0.0-12-12-192.168.1.105@11792#u#112.122.91.35@16705.payload
+(0~10[0~10])0x80 0x00 |count:701; sup:0.008; frag size:1
+	 Sample File: 1-udp-10027-20110301@11#02#38.472075-20110301@11#02#38.472075-0.0-12-12-192.168.1.105@11792#u#125.211.161.212@6000.payload
+
+######~End
+Signature size:2; Unknow sequence Size:562; Identify Rate:0.993533
+(0)0x80 0x00->(4)0x00 0x80 0x0c 0x10 | counts: 74459, support:0.856826, earn:3.963651, frag size:2, merge count: 0
+	Regex: ^\u0080\u0000[\u0000-\uFFFF]{4}\u0000\u0080\u000c\u0010
+(0,10)0x80 0x00 | counts: 86339, support:0.993533, earn:3.180642, frag size:1, merge count: 0
+	Regex: ^[\u0000-\uFFFF]{0,10}\u0080\u0000
+
+Signature size:2; Unknow sequence Size:562; Identify Rate:0.993533
+(0,10)0x80 0x00->(4)0x00 0x80 0x0c 0x10 | counts: 74459, support:0.856826, earn:3.963651, frag size:2, merge count: 0
+	Regex: ^[\u0000-\uFFFF]{0,10}\u0080\u0000[\u0000-\uFFFF]{4}\u0000\u0080\u000c\u0010
+(0,10)0x80 0x00 | counts: 86339, support:0.993533, earn:3.180642, frag size:1, merge count: 0
+	Regex: ^[\u0000-\uFFFF]{0,10}\u0080\u0000
+
+Signature size:2; Unknow sequence Size:562; Identify Rate:0.993533
+(0,10)0x80 0x00->(4)0x00 0x80 0x0c 0x10 | counts: 74459, support:0.856826, earn:4.463651, frag size:2, merge count: 1
+	Regex: ^[\u0000-\uFFFF]{0,10}\u0080\u0000[\u0000-\uFFFF]{4}\u0000\u0080\u000c\u0010
+(0,10)0x80 0x00 | counts: 86339, support:0.993533, earn:3.680642, frag size:1, merge count: 1
+	Regex: ^[\u0000-\uFFFF]{0,10}\u0080\u0000
+Regex String:
+kuwo_udp_src 4.463651 ^[\u0000-\uFFFF]{0,10}\u0080\u0000[\u0000-\uFFFF]{4}\u0000\u0080\u000c\u0010
+kuwo_udp_src 3.680642 ^[\u0000-\uFFFF]{0,10}\u0080\u0000
+#Mining stopped at Tue Mar 15 00:14:20 2011
+
+#Total time costs 33.016000 seconds.

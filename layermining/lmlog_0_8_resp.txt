@@ -1,0 +1,541 @@
+:Init System at Sun Feb 13 17:31:23 2011
+>Enter CLayerMining::CreateOriginalNetflowSet
+>Enter findAllFiles
+>Leave findAllFiles
+Folder path is E:\temp\packet_col\bittorrent\resp\;  keyword is #r#;  file set size is 474
+>Leave CLayerMining::CreateOriginalNetflowSet
+>Enter CLayerMining::SetAlignLength
+RawNetflowCollection reserveLength is 170
+>Leave CLayerMining::SetAlignLength
+>Enter CLayerMining::CreateElemSeqColFromRawCol
+Element Sequence Set Size: 380
+>Leave CLayerMining::CreateElemSeqColFromRawCol
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l | @ count: 46
+#####Signatures####
+o |: | @ count: 5
+#####Signatures####
+0 | @ count: 1
+#####Signatures####
+o | @ count: 17
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 |: | @ count: 147
+#####Signatures####
+p |: | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |: | @ count: 5
+#####Signatures####
+n |r | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |0 |: | @ count: 14
+#####Signatures####
+[sp] | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |: | @ count: 4
+#####Signatures####
+t | @ count: 2
+#####Signatures####
+: | @ count: 1
+cosine: 0.000000
+#############################################################
+Level: 1; size: 14
+1 @ (-1 , -1) *
+: @ (-1 , -1) *
+r @ (-1 , -1) *
+2 @ (-1 , -1) *
+0 @ (-1 , -1) *
+p @ (-1 , -1) *
+t @ (-1 , -1) *
+T @ (-1 , -1) *
+o @ (-1 , -1) *
+[sp] @ (-1 , -1) *
+n @ (-1 , -1) *
+l @ (-1 , -1) *
+i @ (-1 , -1) *
+c @ (-1 , -1) *
+#############################################################
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l | @ count: 46
+#####Signatures####
+o |: | @ count: 5
+#####Signatures####
+0 | @ count: 1
+#####Signatures####
+o | @ count: 17
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 |: | @ count: 147
+#####Signatures####
+p |: | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |: | @ count: 5
+#####Signatures####
+n |r | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |0 |: | @ count: 14
+#####Signatures####
+[sp] | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |: | @ count: 4
+#####Signatures####
+t | @ count: 2
+#####Signatures####
+: | @ count: 1
+cosine: 0.100000
+#############################################################
+Level: 1; size: 14
+1 @ (-1 , -1) *
+: @ (-1 , -1) *
+r @ (-1 , -1) *
+2 @ (-1 , -1) *
+0 @ (-1 , -1) *
+p @ (-1 , -1) *
+t @ (-1 , -1) *
+T @ (-1 , -1) *
+o @ (-1 , -1) *
+[sp] @ (-1 , -1) *
+n @ (-1 , -1) *
+l @ (-1 , -1) *
+i @ (-1 , -1) *
+c @ (-1 , -1) *
+#############################################################
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l | @ count: 46
+#####Signatures####
+o |: | @ count: 5
+#####Signatures####
+0 | @ count: 1
+#####Signatures####
+o | @ count: 17
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 |: | @ count: 147
+#####Signatures####
+p |: | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |: | @ count: 5
+#####Signatures####
+n |r | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |0 |: | @ count: 14
+#####Signatures####
+[sp] | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |: | @ count: 4
+#####Signatures####
+t | @ count: 2
+#####Signatures####
+: | @ count: 1
+cosine: 0.200000
+#############################################################
+Level: 1; size: 14
+1 @ (-1 , -1) *
+: @ (-1 , -1) *
+r @ (-1 , -1) *
+2 @ (-1 , -1) *
+0 @ (-1 , -1) *
+p @ (-1 , -1) *
+t @ (-1 , -1) *
+T @ (-1 , -1) *
+o @ (-1 , -1) *
+[sp] @ (-1 , -1) *
+n @ (-1 , -1) *
+l @ (-1 , -1) *
+i @ (-1 , -1) *
+c @ (-1 , -1) *
+#############################################################
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l | @ count: 46
+#####Signatures####
+o |: | @ count: 5
+#####Signatures####
+0 | @ count: 1
+#####Signatures####
+o | @ count: 17
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 |: | @ count: 147
+#####Signatures####
+p |: | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |: | @ count: 5
+#####Signatures####
+n |r | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |0 |: | @ count: 14
+#####Signatures####
+[sp] | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |: | @ count: 4
+#####Signatures####
+t | @ count: 2
+#####Signatures####
+: | @ count: 1
+cosine: 0.300000
+#############################################################
+Level: 1; size: 14
+1 @ (-1 , -1) *
+: @ (-1 , -1) *
+r @ (-1 , -1) *
+2 @ (-1 , -1) *
+0 @ (-1 , -1) *
+p @ (-1 , -1) *
+t @ (-1 , -1) *
+T @ (-1 , -1) *
+o @ (-1 , -1) *
+[sp] @ (-1 , -1) *
+n @ (-1 , -1) *
+l @ (-1 , -1) *
+i @ (-1 , -1) *
+c @ (-1 , -1) *
+#############################################################
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l | @ count: 46
+#####Signatures####
+o |: | @ count: 5
+#####Signatures####
+0 | @ count: 1
+#####Signatures####
+o | @ count: 17
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 |: | @ count: 147
+#####Signatures####
+p |: | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |: | @ count: 5
+#####Signatures####
+n |r | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |0 |: | @ count: 14
+#####Signatures####
+[sp] | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |: | @ count: 4
+#####Signatures####
+t | @ count: 2
+#####Signatures####
+: | @ count: 1
+cosine: 0.400000
+#############################################################
+Level: 1; size: 14
+1 @ (-1 , -1) *
+: @ (-1 , -1) *
+r @ (-1 , -1) *
+2 @ (-1 , -1) *
+0 @ (-1 , -1) *
+p @ (-1 , -1) *
+t @ (-1 , -1) *
+T @ (-1 , -1) *
+o @ (-1 , -1) *
+[sp] @ (-1 , -1) *
+n @ (-1 , -1) *
+l @ (-1 , -1) *
+i @ (-1 , -1) *
+c @ (-1 , -1) *
+#############################################################
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l | @ count: 46
+#####Signatures####
+o |: | @ count: 5
+#####Signatures####
+0 | @ count: 1
+#####Signatures####
+o | @ count: 17
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 |: | @ count: 147
+#####Signatures####
+p |: | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |: | @ count: 5
+#####Signatures####
+n |r | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |0 |: | @ count: 14
+#####Signatures####
+[sp] | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |: | @ count: 4
+#####Signatures####
+t | @ count: 2
+#####Signatures####
+: | @ count: 1
+cosine: 0.500000
+#############################################################
+Level: 1; size: 14
+1 @ (-1 , -1) *
+: @ (-1 , -1) *
+r @ (-1 , -1) *
+2 @ (-1 , -1) *
+0 @ (-1 , -1) *
+p @ (-1 , -1) *
+t @ (-1 , -1) *
+T @ (-1 , -1) *
+o @ (-1 , -1) *
+[sp] @ (-1 , -1) *
+n @ (-1 , -1) *
+l @ (-1 , -1) *
+i @ (-1 , -1) *
+c @ (-1 , -1) *
+#############################################################
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l | @ count: 46
+#####Signatures####
+o |: | @ count: 5
+#####Signatures####
+0 | @ count: 1
+#####Signatures####
+o | @ count: 17
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 |: | @ count: 147
+#####Signatures####
+p |: | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |: | @ count: 5
+#####Signatures####
+n |r | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |0 |: | @ count: 14
+#####Signatures####
+[sp] | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |: | @ count: 4
+#####Signatures####
+t | @ count: 2
+#####Signatures####
+: | @ count: 1
+cosine: 0.600000
+#############################################################
+Level: 1; size: 14
+1 @ (-1 , -1) *
+: @ (-1 , -1) *
+r @ (-1 , -1) *
+2 @ (-1 , -1) *
+0 @ (-1 , -1) *
+p @ (-1 , -1) *
+t @ (-1 , -1) *
+T @ (-1 , -1) *
+o @ (-1 , -1) *
+[sp] @ (-1 , -1) *
+n @ (-1 , -1) *
+l @ (-1 , -1) *
+i @ (-1 , -1) *
+c @ (-1 , -1) *
+#############################################################
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l | @ count: 46
+#####Signatures####
+o |: | @ count: 5
+#####Signatures####
+0 | @ count: 1
+#####Signatures####
+o | @ count: 17
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 |: | @ count: 147
+#####Signatures####
+p |: | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |: | @ count: 5
+#####Signatures####
+n |r | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |0 |: | @ count: 14
+#####Signatures####
+[sp] | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |: | @ count: 4
+#####Signatures####
+t | @ count: 2
+#####Signatures####
+: | @ count: 1
+cosine: 0.700000
+#############################################################
+Level: 1; size: 14
+1 @ (-1 , -1) *
+: @ (-1 , -1) *
+r @ (-1 , -1) *
+2 @ (-1 , -1) *
+0 @ (-1 , -1) *
+p @ (-1 , -1) *
+t @ (-1 , -1) *
+T @ (-1 , -1) *
+o @ (-1 , -1) *
+[sp] @ (-1 , -1) *
+n @ (-1 , -1) *
+l @ (-1 , -1) *
+i @ (-1 , -1) *
+c @ (-1 , -1) *
+#############################################################
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l | @ count: 46
+#####Signatures####
+o |: | @ count: 5
+#####Signatures####
+0 | @ count: 1
+#####Signatures####
+o | @ count: 17
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 |: | @ count: 147
+#####Signatures####
+p |: | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |: | @ count: 5
+#####Signatures####
+n |r | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |0 |: | @ count: 14
+#####Signatures####
+[sp] | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |: | @ count: 4
+#####Signatures####
+t | @ count: 2
+#####Signatures####
+: | @ count: 1
+cosine: 0.800000
+#############################################################
+Level: 1; size: 14
+1 @ (-1 , -1) *
+: @ (-1 , -1) *
+r @ (-1 , -1) *
+2 @ (-1 , -1) *
+0 @ (-1 , -1) *
+p @ (-1 , -1) *
+t @ (-1 , -1) *
+T @ (-1 , -1) *
+o @ (-1 , -1) *
+[sp] @ (-1 , -1) *
+n @ (-1 , -1) *
+l @ (-1 , -1) *
+i @ (-1 , -1) *
+c @ (-1 , -1) *
+#############################################################
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l | @ count: 46
+#####Signatures####
+o |: | @ count: 5
+#####Signatures####
+0 | @ count: 1
+#####Signatures####
+o | @ count: 17
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 |: | @ count: 147
+#####Signatures####
+p |: | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |: | @ count: 5
+#####Signatures####
+n |r | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |0 |: | @ count: 14
+#####Signatures####
+[sp] | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |: | @ count: 4
+#####Signatures####
+t | @ count: 2
+#####Signatures####
+: | @ count: 1
+cosine: 0.900000
+#############################################################
+Level: 1; size: 14
+1 @ (-1 , -1) *
+: @ (-1 , -1) *
+r @ (-1 , -1) *
+2 @ (-1 , -1) *
+0 @ (-1 , -1) *
+p @ (-1 , -1) *
+t @ (-1 , -1) *
+T @ (-1 , -1) *
+o @ (-1 , -1) *
+[sp] @ (-1 , -1) *
+n @ (-1 , -1) *
+l @ (-1 , -1) *
+i @ (-1 , -1) *
+c @ (-1 , -1) *
+#############################################################
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l | @ count: 46
+#####Signatures####
+o |: | @ count: 5
+#####Signatures####
+0 | @ count: 1
+#####Signatures####
+o | @ count: 17
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 |: | @ count: 147
+#####Signatures####
+p |: | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |: | @ count: 5
+#####Signatures####
+n |r | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |0 | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |1 |0 |: | @ count: 14
+#####Signatures####
+[sp] | @ count: 1
+#####Signatures####
+i |T |n |[sp] |p |r |t |c |o |l |2 |1 |: | @ count: 4
+#####Signatures####
+t | @ count: 2
+#####Signatures####
+: | @ count: 1
+cosine: 1.000000
+#############################################################
+Level: 1; size: 14
+1 @ (-1 , -1) *
+: @ (-1 , -1) *
+r @ (-1 , -1) *
+2 @ (-1 , -1) *
+0 @ (-1 , -1) *
+p @ (-1 , -1) *
+t @ (-1 , -1) *
+T @ (-1 , -1) *
+o @ (-1 , -1) *
+[sp] @ (-1 , -1) *
+n @ (-1 , -1) *
+l @ (-1 , -1) *
+i @ (-1 , -1) *
+c @ (-1 , -1) *
+#############################################################
+:Destroy System at Sun Feb 13 17:31:26 2011

@@ -1,0 +1,9 @@
+#Powered by Wynter Han
+#Date time: Mon Mar 14 22:52:41 2011
+Gsp Mining Initial parameters:
+	 Tag: kugou_both; Half Window Size: 100; Shingle Size: 3; Minimum Support Threshold: 0.100000
+	 Is self-adaption mode? Yes.
+	 Cosine: 0.300000; Scale: 0.500000; Offset: 5
+#Mining stopped at Mon Mar 14 22:52:41 2011
+
+#Total time costs 0.001000 seconds.

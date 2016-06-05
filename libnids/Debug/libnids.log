@@ -1,0 +1,17 @@
+﻿Build started 2011/2/19 1:55:37.
+     1>Project "E:\win7_doc\documents\myfile\p2p特征提取\program\project\yaas\libnids\libnids.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\libnids.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         libnids.vcxproj -> E:\win7_doc\documents\myfile\p2p特征提取\program\project\yaas\Debug\libnidsdbg.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\libnids.unsuccessfulbuild".
+         Touching "Debug\libnids.lastbuildstate".
+     1>Done Building Project "E:\win7_doc\documents\myfile\p2p特征提取\program\project\yaas\libnids\libnids.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06
