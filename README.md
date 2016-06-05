@@ -6,4 +6,4 @@ The method can automatically identify signatures of new network applications. Th
 The running results show that the method can figure out the signatures of applications.
 These signatures can be further used in network managment system to classify the traffic of different applications.
 
-<img src="signature_result.jpg" alt="Running result"/>
+<img src="signature_result.png" alt="Running result"/>
